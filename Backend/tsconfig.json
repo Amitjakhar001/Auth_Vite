@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    // "noEmit": true,                          /// if we want to import files as .ts specifically but it's not recommended import files as by default
+    // "allowImportingTsExtensions": true,     /// comment this out also
+  },
+  "include": ["src/**/*.ts", "src/index.ts"]
+}
+
+
+
